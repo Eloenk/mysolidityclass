@@ -39,5 +39,9 @@ contract Opera{
     function and(bool a, bool b) external pure returns(uint){
         return a && b;
     }
+
+        function or(bool a, bool b) external pure returns(uint) {
+        return a || b;
+    }
     
 }
