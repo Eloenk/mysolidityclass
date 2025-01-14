@@ -24,5 +24,8 @@ contract Opera{
     function noteql(uint a, uint b) external pure returns(uint){
         return a != b;
     }
+    function grt(uint a, uint b) external pure returns(uint) {
+        return a > b;
+    }
     
 }
