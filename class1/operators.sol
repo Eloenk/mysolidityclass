@@ -14,5 +14,9 @@ contract Opera{
         a++;
         return a;
     }
+    function decre(uint a) external pure returns(uint) {
+        a--;
+        return a;
+    }
     
 }
