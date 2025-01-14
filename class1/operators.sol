@@ -27,5 +27,11 @@ contract Opera{
     function grt(uint a, uint b) external pure returns(uint) {
         return a > b;
     }
+    function less(uint a, uint b) external pure returns(uint) {
+        return a < b;
+    }
+    function grteql(uint a, uint b) external pure returns(uint) {
+        return a >= b;
+    }
     
 }
