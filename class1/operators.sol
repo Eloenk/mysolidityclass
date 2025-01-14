@@ -33,5 +33,11 @@ contract Opera{
     function grteql(uint a, uint b) external pure returns(uint) {
         return a >= b;
     }
+    function lesseql(uint a, uint b) external pure returns(uint) {
+        return a <= b;
+    }
+    function and(bool a, bool b) external pure returns(uint){
+        return a && b;
+    }
     
 }
