@@ -7,4 +7,12 @@ contract Opera{
         return a ** b;
     
     }
+   function mod(uint a, uint b) external pure returns(uint) {
+    return a % b;
+}
+    function incre(uint a) external pure returns(uint){
+        a++;
+        return a;
+    }
+    
 }
