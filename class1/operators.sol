@@ -21,5 +21,8 @@ contract Opera{
     function eql(uint a, uint b) external pure returns(uint){
         return a == b;
     }
+    function noteql(uint a, uint b) external pure returns(uint){
+        return a != b;
+    }
     
 }
