@@ -21,5 +21,6 @@ contract Cal {
     }
         function multiply() public view returns(uint ans){
         ans = num * numj;
+        return ans;
     }
     }
