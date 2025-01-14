@@ -11,7 +11,15 @@ contract Cal {
         return ans;
     }
         function subtra() public view returns(uint ans){
-            ans = num -numj;
-            
+            ans = num - numj;
+            return ans;
+
+    }
+        function divider() public view returns(uint ans){
+            ans = num / numj;
+            return ans;
+    }
+        function multiply() public view returns(uint ans){
+        ans = num * numj;
     }
     }
