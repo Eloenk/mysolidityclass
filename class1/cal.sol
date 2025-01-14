@@ -3,24 +3,10 @@
 pragma solidity ^0.8.3;
 
 contract Cal {
-        uint num = 20;
-        uint numj = 5;
-
-        function adder() public view returns (uint ans){
-        ans = num + numj;
-        return ans;
+        function adder(uint a, uint b) external pure returns(uint) {
+        returns a+b;
     }
-        function subtra() public view returns(uint ans){
-            ans = num - numj;
-            return ans;
-
+        function subtra(uint a, uint b) external pure returns(uint){
+        returns a - b;
     }
-        function divider() public view returns(uint ans){
-            ans = num / numj;
-            return ans;
-    }
-        function multiply() public view returns(uint ans){
-        ans = num * numj;
-        return ans;
-    }
-    }
+}
