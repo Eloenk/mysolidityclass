@@ -18,5 +18,8 @@ contract Opera{
         a--;
         return a;
     }
+    function eql(uint a, uint b) external pure returns(uint){
+        return a == b;
+    }
     
 }
