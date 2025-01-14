@@ -43,5 +43,9 @@ contract Opera{
         function or(bool a, bool b) external pure returns(uint) {
         return a || b;
     }
+        function not(bool a) external pure returns(uint)    function or(bool a, bool b) external pure returns(uint) {
+        return !a;
+    }
+    
     
 }
